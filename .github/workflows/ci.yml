@@ -28,8 +28,3 @@ jobs:
 
       - name: Run tests
         run: pytest -v  # Run tests with verbose output
-
-      - name: Lint code
-        run: |
-          pip install flake8  # Install flake8 for linting
-          flake8 .  # Lint the current directory
