@@ -46,8 +46,10 @@ Before you can run the project, ensure that you have the following tools install
 
 ## Getting Started
 ### 1. Clone the Repository
+```
 git clone https://github.com/yourusername/flask-docker-app.git
 cd flask-docker-app
+```
 
 ### 2. Build the Docker Image
 To build the Docker image, run the following command from the project directory:
@@ -55,7 +57,9 @@ docker build -t flask-app .
 
 ### 3. Run the Docker Container
 After the image is built, you can run the Docker container with:
+```
 docker run -p 5000:5000 flask-app
+```
 Now open your browser and go to http://localhost:5000. You should see the message 'Hello, World!'.
 
 ## Continuous Integration and Deployment
