@@ -44,7 +44,7 @@ Before you can run the project, ensure that you have the following tools install
 2. Git - Install Git
 3. Python (if you want to run the app locally without Docker) - Install Python
 
-##Getting Started
+## Getting Started
 ### 1. Clone the Repository
 git clone https://github.com/yourusername/flask-docker-app.git
 cd flask-docker-app
