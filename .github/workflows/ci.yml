@@ -36,4 +36,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push myusername/my-flask-app:latest  # Replace 'myusername/my-flask-app' with your Docker Hub repo name
+          docker push ashoknath2080/flask-docker-app:latest  # Replace 'myusername/my-flask-app' with your Docker Hub repo name
