@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t myusername/my-flask-app:latest .  # Replace 'myusername/my-flask-app' with your Docker Hub repo name
+          docker build -t ashoknath2080/flask-app:latest .  # Replace 'myusername/my-flask-app' with your Docker Hub repo name
 
       - name: Log in to Docker Hub
         run: |
@@ -36,4 +36,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push ashoknath2080/flask-docker-app:latest  # Replace 'myusername/my-flask-app' with your Docker Hub repo name
+          docker push ashoknath2080/flask-app:latest  # Replace 'ashoknath2080/flask-app' with your Docker Hub repo name
