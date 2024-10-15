@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose the port the app will run on
-EXPOSE 5000
+EXPOSE 8080
 
 # Run the application
 CMD ["python", "app.py"]
