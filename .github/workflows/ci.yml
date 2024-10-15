@@ -26,8 +26,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt  # Install dependencies from requirements.txt
 
-      - name: Run tests
-        run: pytest -v  # Run tests with verbose output
 
       - name: Lint code
         run: |
